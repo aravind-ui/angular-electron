@@ -1,0 +1,9 @@
+<p>contact works!</p>
+<button type="button" [routerLink]="['']">Go to Home page</button>
+<br />
+<button type="button" (click)="checkIsWeekEnd(); showWeekDayDetails = true">
+  Check is weekend or not?
+</button>
+<h5 *ngIf="showWeekDayDetails">
+  Today is {{ weekEndOrNot ? "Week end" : "Week day" }}
+</h5>

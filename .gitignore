@@ -40,3 +40,8 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+angel-app-win32-x64
+www
+v1
+v2
+main.ts
